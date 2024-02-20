@@ -20,7 +20,6 @@ public class SegundaTela extends JFrame{
     private JLabel lblFator;
     private JComboBox cmbFator;
     private final String[] tiposFator = {"+", "-"};
-
     private JLabel lblCurso;
     private JComboBox cmbCurso;
     private final String[] tiposCurso = {"Ciência da computação", "Administração", "Engenharia"};
