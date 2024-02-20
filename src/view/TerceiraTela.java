@@ -90,7 +90,7 @@ public class TerceiraTela extends JFrame{
         lblCEP.setBounds(10,200,100,25);
         txtCEP.setBounds(150,200,100,25);
         lblCNPJ.setBounds(10,250,100,25);
-        txtCNPJ.setBounds(150,250,100,25);
+        txtCNPJ.setBounds(150,250,125,25);
         lblCodigo.setBounds(10,300,150,25);
         txtCodigo.setBounds(150,300,100,25);
         lblNome.setBounds(10,350,100,25);
