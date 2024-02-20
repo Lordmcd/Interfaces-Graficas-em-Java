@@ -31,14 +31,14 @@ public class SegundaTela extends JFrame{
     private Container ctn;
 
     public SegundaTela(){
-        setSize(400, 800);
+        setSize(425, 525);
         setTitle("Tela inicial");
         ctn = getContentPane();
         lblNome = new JLabel("Nome");
         txtNome = new JTextField();
         lblEndereco = new JLabel("Endereço");
         txtEndereco = new JTextField();
-        lblTelefone = new JLabel("CPF");
+        lblTelefone = new JLabel("Telefone");
         try {
             txtTelefone = new JFormattedTextField(new MaskFormatter("(##)#####-####"));
         } catch (ParseException e){
@@ -57,10 +57,28 @@ public class SegundaTela extends JFrame{
         lblCurso = new JLabel("Curso");
         cmbCurso = new JComboBox(tiposCurso);
         lblEmergencia = new JLabel("Contato de emergência");
+        txtEmergencia = new JTextField();
         btnInserir = new JButton("Inserir");
         btnCancelar = new JButton("Cancelar");
         ctn.setLayout(null);
-
+        lblNome.setBounds(10,0,100,25);
+        txtNome.setBounds(150,0,250,25);
+        lblEndereco.setBounds(10,50,100,25);
+        txtEndereco.setBounds(150,50,250,25);
+        lblTelefone.setBounds(10,100,100,25);
+        txtTelefone.setBounds(150,100,250,25);
+        lblCPF.setBounds(10,150,100,25);
+        txtCPF.setBounds(150,150,250,25);
+        lblSangue.setBounds(10,200,100,25);
+        cmbSangue.setBounds(150,200,50,25);
+        lblFator.setBounds(300,200,100,25);
+        cmbFator.setBounds(350,200,50,25);
+        lblCurso.setBounds(10,250,100,25);
+        cmbCurso.setBounds(150,250,250,25);
+        lblEmergencia.setBounds(10,300,200,25);
+        txtEmergencia.setBounds(150,300,250,25);
+        btnInserir.setBounds(105,375,100,100);
+        btnCancelar.setBounds(210,375,100,100);
         ctn.add(lblNome);
         ctn.add(txtNome);
         ctn.add(lblEndereco);
