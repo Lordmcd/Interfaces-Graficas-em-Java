@@ -28,5 +28,15 @@ public class TerceiraTela extends JFrame{
     private JLabel lblFuncao;
     private JTextField txtFuncao;
 
+    public TerceiraTela(){
 
+
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+
+    public static void main(String[] args){
+        TerceiraTela t3 = new TerceiraTela();
+    }
 }
